@@ -1,0 +1,8 @@
+[unit]
+Description=Enable tmux
+[Service]
+Type=oneshot
+ExecStart=/usr/tmux.sh
+RemainAfterExit=true
+[Install]
+WantedBy=default.target
